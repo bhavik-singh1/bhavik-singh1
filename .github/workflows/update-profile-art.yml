@@ -22,6 +22,10 @@ jobs:
       - run: python scripts/fetch_contributions.py
         env:
           GH_USERNAME: ${{ github.repository_owner }}
+          # Prefer a personal token (secret PROFILE_TOKEN) so GraphQL can read
+          # PRIVATE contribution totals; fall back to the built-in token, which
+          # only sees public contributions.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: python scripts/render_heatmap_svg.py
       - uses: stefanzweifel/git-auto-commit-action@v5
