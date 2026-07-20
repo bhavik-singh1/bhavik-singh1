@@ -20,12 +20,12 @@ HEADER_ART = [
     "     > ^ <    ",
 ]
 ROWS = [
-    ("Now",        "Engineer @ VocalLabs — voice AI"),
+    ("Now",        "SDE Engineer @ VocalLabs.ai — conversational AI"),
     ("Prev",       "Systems / backend, C++ & Go"),
     ("Stack",      " · C++ · TypeScript · LLMs"),
     ("Focus",      "Vector DBs · voice agents · infra"),
-    ("Highlights", "Building Vector-DB-CPP from scratch"),
-    ("Contact",    "tarun@vocallabs.ai"),
+    ("Highlights", "Building High-end AI "),
+    ("Contact",    "work.bhaviksingh@gmail.com"),
 ]
 # ---------------------------------------------------------------------------
 
