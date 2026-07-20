@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="220" viewBox="0 0 380 220">
+  <style>
+    text { font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace; font-size:12px; fill:#b9c0c8; white-space:pre; }
+    .bg { fill:#0d1117; }
+    .dim { fill:#8b949e; font-size:11px; }
+    .cur { fill:#39d353; }
+    .ln { opacity:0; animation:fin .5s ease-out forwards; }
+    @keyframes fin { to { opacity:1; } }
+  </style>
+  <rect class="bg" x="0" y="0" width="380" height="220" rx="10"/>
+  <g class="ln" style="animation-delay:.0s"><text x="16" y="30" xml:space="preserve">   _______________   </text></g>
+  <g class="ln" style="animation-delay:.1s"><text x="16" y="46" xml:space="preserve">  /               \  </text></g>
+  <g class="ln" style="animation-delay:.2s"><text x="16" y="62" xml:space="preserve"> |   ^       ^     | </text></g>
+  <g class="ln" style="animation-delay:.3s"><text x="16" y="78" xml:space="preserve"> |                 | </text></g>
+  <g class="ln" style="animation-delay:.4s"><text x="16" y="94" xml:space="preserve"> |      .___.       |</text></g>
+  <g class="ln" style="animation-delay:.5s"><text x="16" y="110" xml:space="preserve"> |       \_/        |</text></g>
+  <g class="ln" style="animation-delay:.6s"><text x="16" y="126" xml:space="preserve">  \_______________/ </text></g>
+  <g class="ln" style="animation-delay:.9s"><text x="16" y="160" class="dim" xml:space="preserve"># placeholder portrait</text></g>
+  <g class="ln" style="animation-delay:1.1s"><text x="16" y="178" class="dim" xml:space="preserve"># drop a photo, then run:</text></g>
+  <g class="ln" style="animation-delay:1.3s"><text x="16" y="196" class="dim" xml:space="preserve">$ python scripts/prep_photo.py you.jpg</text><rect class="cur" x="300" y="187" width="7" height="11"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></g>
+</svg>

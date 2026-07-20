@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="308" viewBox="0 0 490 308">
+  <style>
+    text { font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace; font-size:13px; }
+    .bg { fill:#0d1117; }
+    .user { fill:#39d353; font-weight:700; font-size:14px; }
+    .art  { fill:#58a6ff; font-size:13px; }
+    .key  { fill:#39d353; font-weight:700; }
+    .val  { fill:#c9d1d9; }
+    .dim  { fill:#8b949e; }
+    .rule { stroke:#21262d; stroke-width:1; }
+    .ln { opacity:0; transform:translateX(-8px);
+          animation:slidein .4s ease-out forwards; }
+    @keyframes slidein { to { opacity:1; transform:translateX(0); } }
+  </style>
+  <rect class="bg" x="0" y="0" width="490" height="308" rx="10"/>
+  <g class="ln" style="animation-delay:0.00s"><text x="20" y="46" class="user">bhavik@vocallabs</text><text x="157.2" y="46" class="dim">~ neofetch</text></g><g class="ln" style="animation-delay:0.11s"><line x1="20" y1="54" x2="470" y2="54" class="rule"/></g><g class="ln" style="animation-delay:0.22s"><text x="20" y="74" class="art" xml:space="preserve">     ___      </text></g><g class="ln" style="animation-delay:0.33s"><text x="20" y="96" class="art" xml:space="preserve">    ( o.o )   </text></g><g class="ln" style="animation-delay:0.44s"><text x="20" y="118" class="art" xml:space="preserve">     &gt; ^ &lt;    </text></g><g class="ln" style="animation-delay:0.55s"><text x="20" y="144" xml:space="preserve"><tspan class="key">Now       </tspan><tspan class="dim"> : </tspan><tspan class="val">Engineer @ VocalLabs — voice AI</tspan></text></g><g class="ln" style="animation-delay:0.66s"><text x="20" y="166" xml:space="preserve"><tspan class="key">Prev      </tspan><tspan class="dim"> : </tspan><tspan class="val">Systems / backend, C++ &amp; Python</tspan></text></g><g class="ln" style="animation-delay:0.77s"><text x="20" y="188" xml:space="preserve"><tspan class="key">Stack     </tspan><tspan class="dim"> : </tspan><tspan class="val">Python · C++ · TypeScript · LLMs</tspan></text></g><g class="ln" style="animation-delay:0.88s"><text x="20" y="210" xml:space="preserve"><tspan class="key">Focus     </tspan><tspan class="dim"> : </tspan><tspan class="val">Vector DBs · voice agents · infra</tspan></text></g><g class="ln" style="animation-delay:0.99s"><text x="20" y="232" xml:space="preserve"><tspan class="key">Highlights</tspan><tspan class="dim"> : </tspan><tspan class="val">Building Vector-DB-CPP from scratch</tspan></text></g><g class="ln" style="animation-delay:1.10s"><text x="20" y="254" xml:space="preserve"><tspan class="key">Contact   </tspan><tspan class="dim"> : </tspan><tspan class="val">tarun@vocallabs.ai</tspan></text></g>
+</svg>
